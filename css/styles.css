@@ -1,0 +1,9 @@
+#my_avatar {
+  display: block;
+  margin-left: none;
+  margin-right: auto;
+  width: 15%;
+}
+ul {
+	list-style: none;
+}
