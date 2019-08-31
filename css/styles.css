@@ -1,21 +1,56 @@
 .header {
+font-family: 'Julius Sans One', sans-serif;
+text-transform: uppercase;
+position: relative;
+text-align: center;
+padding: 50px;
+}
+
+#upper_nav {
+	list-style: none;
+	position: absolute;
+	top: 60px;
+	right: 15px;
+	font-family: Times New Roman; color: white; font-size: 12;
 
 }
+
+
 body {
 	background-image: url("c:/MyGit/tester_repo/img/hi_tech.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	position: relative; 
+	width: 85%
+	font-family: Times New Roman; color: white; font-size: 14;
 	font-family: Times New Roman; color: white; font-size: 14;
 }
+
 #my_avatar {
   display: block;
   margin-left: none;
-  margin-right: auto;
+  margin-right: 15px;
   width: 15%;
+  float: left;
 }
 
-nav ul {
+#signature {
+	text-align: right;
+	font-style: italic;
+	font-size: 14px;
+}
+
+#lower_nav {
 	list-style: none;
-	
+	position: absolute;
+	bottom: : 60px;
+	right: 15px;
+	font-family: Times New Roman; color: white; font-size: 12;
+}
+
+#contacts {
+	position: absolute;
+	bottom: : 60px;
+	left: 15px;
+	font-family: Times New Roman; color: white; font-size: 12;
 }
