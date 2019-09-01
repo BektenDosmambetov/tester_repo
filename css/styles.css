@@ -8,8 +8,9 @@ padding: 50px;
 
 #upper_nav {
 	list-style: none;
-	position: absolute;
-	top: 60px;
+	display: inline;
+	position: fixed;
+	top: 15px;
 	right: 15px;
 	font-family: Times New Roman; color: white; font-size: 12;
 
@@ -40,17 +41,24 @@ body {
 	font-size: 14px;
 }
 
+
+ul li {
+	display: inline-block;
+	border: 20px;
+	padding: 5px;
+}
+
 #lower_nav {
 	list-style: none;
-	position: absolute;
-	bottom: : 60px;
+	position: fixed;
+	bottom: 15px;
 	right: 15px;
 	font-family: Times New Roman; color: white; font-size: 12;
 }
 
 #contacts {
 	position: absolute;
-	bottom: : 60px;
+	bottom: : 15px;
 	left: 15px;
 	font-family: Times New Roman; color: white; font-size: 12;
 }
