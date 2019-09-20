@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" name="Description" content="Novice tester">
+    <meta charset="UTF-8" name="Description" content="Novice tester journey">
     <title>Tester Path. Jorney beginning</title>
-    <style src="css/styles.css"  rel="stylesheet" type="text/css" media="all"></style>
+    <style src="css/styles.css"  rel="stylesheet" type="text/css"></style>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
-   	<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Bekten Dosmambetov">
+	<meta name="robots" content="all">
+
 </head>
 <body>
 
@@ -13,44 +16,43 @@
 
 
 		<header class="header">
-		<h1>My site dedicated to a novice tester's path.</h1>
-			
-		<h2>The site is made by HTML, CSS and JS</h2>
+			<h1>My site dedicated to a novice tester's path.</h1>
+
+			<nav>
+				<ul id="upper_nav" class="upper_nav">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="blog.html" target="_self" title="Blog posts">Blog</a>
+				</li>
+				<li>
+					<a href="index.html#contacts"  target="_self" title="My Github contacts">Contacts</a>
+				</li>
+			</ul>
+	</nav>
 			
 
 			
 		</header>
 	</div>
-	<nav>
-		<ul id="upper_nav">
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="blog.html" target="_self" title="Blog posts">Blog</a>
-			</li>
-			<li>
-				<a href="index.html#contacts"  target="_self" title="My Github contacts">Contacts</a>
-			</li>
-		</ul>
-	</nav>
 
 	<main class="content">
-		<img id="my_avatar" src="img/prince.jpg" alt="My avatar" title="My avatar">
-		<h2>Hello my friend!</h2>
-		<p class="first_paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		<article>
+			<img id="my_avatar" src="img/prince.jpg" alt="My avatar" title="My avatar">
+			<h2>Hello my friend!</h2>
+			<p class="paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 
-		<p class="second_paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			<p class="paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 
-		<p class="third_paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-		<p id="signature">Cleric1376</p>
+			<p class="paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			<p id="signature">Cleric1376</p>
+		</article>
 
-
-		
 	</main>
 
 	<footer>
-	<nav>
+
 		<ul id="lower_nav">
 			<li>
 				<a href="index.html">Home</a>
@@ -62,13 +64,20 @@
 				<a href="index.html#contacts"  target="_self" title="My Github contacts">Contacts</a>
 			</li>
 		</ul>
-	</nav>
-	<q id="contacts">
+
+	<address id="contacts">
 		My GitHub contacts<br>
 		https://github.com/BektenDosmambetov/<br>tester_repo
-	</q>
+	</address>
 		
 	</footer>
+
+
+	<aside>
+		<h2>My blog posts on Testing</h2>
+		<a href="#first_article">My first blog post: A little bit about me.</a>
+		<a href="#second_article">My thoughts on Udemy courses</a>
+	</aside>
 
 </body>
 </html>
