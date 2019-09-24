@@ -1,109 +1,13 @@
-.header {
-}
-font-family: 'Julius Sans One', sans-serif;
-color: white;
-text-transform: uppercase;
-position: relative;
-text-align: center;
-padding: 50px;
-}
-
-.upper_nav {
-	color: white;
-	list-style: none;
-	display: inline;
-	position: fixed;
-	top: 15px;
-	right: 145px;
-	font-family: Times New Roman;
-	color: white; font-size: 12;
-
-}
-h1 {
-	font-size: 38px;
-	font-weight: 500;
-}
-
 body {
-
-	background-image: url("c:/MyGit/tester_repo/img/hi_tech.jpg");
-	background-repeat: no-repeat;
-	background-clip: border-box;
-	background-position: center;
-	font-family: sans-serif;
-	color: white;	
-}
-
-
-.content {
-
-	margin-left: 145px;
-	margin-right: 145px;
-	font-family: Times New Roman;
-	color: white; font-size: 14;
-	font-family: Times New Roman;
-	color: white; font-size: 14;
-}
-
-
-#my_avatar {
-  display: block;
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 15%;
-  float: left;
-}
-.clear_float {
-	clear:both;
-}
-
-#signature {
-	text-align: right;
-	font-style: italic;
-	font-size: 14px;
-}
-a {
+	background-color: grey;
+	font-family: Tahoma, sans-serif;
+	font-size: 18px;
 	color: white;
+	margin: 0;
 }
-a:visited {
-	color: grey;
-}
-a:active {
-	color: red;
-}
-
-ul li {
-	display: inline-block;
-	border: 20px;
-	padding: 5px;
-}
-
-#lower_nav {
-	list-style: none;
-	position: fixed;
-	bottom: 15px;
-	right: 145px;
-	font-family: Times New Roman;
-	color: white; font-size: 12;
-}
-
-#contacts {
-	position: absolute;
-	bottom: : 15px;
-	left: 145px;
-	font-family: Times New Roman;
-	color: white; font-size: 12;
-}
-
-/* positioning blocks */
-main {
-	float: left;
-	width: 63%;
-	margin: 0, 20px;
-}
-
-aside {
-	float: right;
-	width: 30%;
-	margin: 0, 20px;
+.wrapper {
+	width: 80%;
+	margin: auto; /* to center a div.wrapper */
+	background-image: url("../img/digital_space.jpg");
+	padding: 20px 20px;
 }
