@@ -1,51 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" name="Description" content="Novice tester">
+<head>
+	<meta charset="UTF-8" name="Description" content="Novice tester's blog posts">
 	<title>Additional page with blog posts</title>
-    <style src="css/styles.css"  rel="stylesheet" type="text/css" media="all"></style>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Bekten Dosmambetov">
+	<meta name="robots" content="all">
 
 </head>
 <body>
-	<header>
-		<nav>
-			<ul id="upper_nav" class="upper_nav">
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="blog.html" target="_self" title="Blog posts">Blog</a>
-				</li>
-				<li>
-					<a href="index.html#contacts"  target="_self" title="My Github contacts">Contacts</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-	
-	<h1>My first blog post: A little bit about me, my learning path, thoughts and so on.</h1>
-	<article id="first_article" class="content">
+
+	<div class="wrapper">
+
+
+		<header class="header">
+			<h1>My blog posts, thoughts, learning and so on</h1>
+
+			<nav id="upper_nav">
+				<ul class="upper_nav">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="blog.html" target="_self" title="Blog posts">Blog</a>
+					</li>
+					<li>
+						<a href="index.html#contacts"  target="_self" title="My Github contacts">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+			
+
+			
+		</header>
+
+	<main class="content">
+			<!-- <img id="my_avatar" src="img/prince.jpg" alt="My avatar" title="My avatar"> -->
+			<div class="clear_float"></div>
+	<section id="first_article" role="note">
 		<h2>A little bit about me</h2>
 		<p>
 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 		</p>
-	</article>
-
-	<article id="second_article" class="content">
+	</section>
+		
+		<section id="second_article" class="content">
 		<h2>My thoughts on Udemy courses</h2>
 		<p>
 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 		</p>
-	</article>
+
+	</section>
+
+	<section id="third_article" class="content">
+		<h2>My Stepik.org course</h2>
+		<p>
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		</p>
+	</section>
+
+
+
+
+	</main>
+
+
+	<aside>
+		<h2>Navigation by articles</h2>
+		<ul id="blog_list">
+			<li>
+				<a href="#first_article">My first blog post: A little bit about me.</a>
+			</li>
+			<li>
+				<a href="#second_article">My thoughts on Udemy courses</a>
+			</li>
+			<li>
+				<a href="#third_article">My Stepik.org courses</a>
+			</li>
+		</ul>
+	</aside>
+
 
 	<footer>
-		<h3>Additional info</h3>
-		<time>September 2019</time>
-		<address>My GitHub contacts<br>
-		https://github.com/BektenDosmambetov/<br>tester_repo</address>
-	</footer>
 
-	
+<!-- 		<ul id="lower_nav">
+	<li>
+		<a href="index.html">Home</a>
+	</li>
+	<li>
+		<a href="blog.html" target="_self" title="Blog posts">Blog</a>
+	</li>
+	<li>
+		<a href="index.html#contacts"  target="_self" title="My Github contacts">Contacts</a>
+	</li>
+</ul> -->
+
+		<address id="contacts">
+			My GitHub contacts<br>
+			https://github.com/BektenDosmambetov/<br>tester_repo
+		</address>
+		
+	</footer>
+	</div>
+
 </body>
 </html>
