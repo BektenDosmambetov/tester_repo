@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: 'Merriweather', serif;
+}
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #f3ece6;
+	color: #feede5;
+	border: 1px solid red;
+}
+
+.header {
+	width: 80%;
+	height: 7vw;
+	margin: 0 auto;
+	background-image: url(../img/digital_space.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.tester-motto {
+	margin-left: 15px;
+}
+.logo img {
+	width: 5vw;
+	margin-left: 15px;
+}
+.header-nav li {
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 15px;
+	padding: 10px 10px;
+	border: 3px groove #cc1067;
+	border-radius: 10px;
+}
+.header-nav a {
+	color: #feede5;
+	text-decoration: none;
+}
+main {
+	width: 80%;
+	height: 600px;
+	margin: 0 auto;
+	background: #3c0a45;
+	background: linear-gradient(to right bottom, #1a0030, #cc1067);
+}
+h1 {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 32px;
+}
+.avatar img {
+	width: 13vw;
+	margin: 0 15px;
+}
